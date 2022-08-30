@@ -1,0 +1,110 @@
+D:\c#練習\塘芸上課\功課\homework\0715 - 1\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 1\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 1\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 1\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 1\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 1\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 1\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 1\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 1\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 1\0715\obj\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 3\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 3\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 3\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 3\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 3\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 3\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 3\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 3\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 3\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 3\0715\obj\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 4\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 4\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 4\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 4\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 4\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 4\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 4\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 4\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 4\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 4\0715\obj\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 5\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 5\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 5\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 5\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 5\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 5\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 5\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 5\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 5\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 5\0715\obj\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 5 - 複製\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 5 - 複製\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 5 - 複製\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 5 - 複製\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 5 - 複製\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 5 - 複製\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 5 - 複製\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 5 - 複製\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 5 - 複製\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 5 - 複製\0715\obj\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 6\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 6\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 6\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 6\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 6\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 6\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 6\0715\obj\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 6\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 6\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 6\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 7\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 7\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 7\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 7\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 7\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 7\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 7\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 7\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 7\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 7\0715\obj\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 8\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 8\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 8\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 8\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 8\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 8\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 8\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 8\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 8\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 8\0715\obj\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 9\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 9\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 9\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 9\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 9\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 9\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 9\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 9\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 9\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 9\0715\obj\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 10\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 10\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 10\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 10\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 10\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 10\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 10\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 10\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 10\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 10\0715\obj\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 12\0715\bin\Debug\0715.exe.config
+D:\c#練習\塘芸上課\功課\homework\0715 - 12\0715\bin\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 12\0715\bin\Debug\0715.pdb
+D:\c#練習\塘芸上課\功課\homework\0715 - 12\0715\obj\Debug\0715.csproj.AssemblyReference.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 12\0715\obj\Debug\_0715.Form1.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 12\0715\obj\Debug\_0715.Properties.Resources.resources
+D:\c#練習\塘芸上課\功課\homework\0715 - 12\0715\obj\Debug\0715.csproj.GenerateResource.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 12\0715\obj\Debug\0715.csproj.CoreCompileInputs.cache
+D:\c#練習\塘芸上課\功課\homework\0715 - 12\0715\obj\Debug\0715.exe
+D:\c#練習\塘芸上課\功課\homework\0715 - 12\0715\obj\Debug\0715.pdb
