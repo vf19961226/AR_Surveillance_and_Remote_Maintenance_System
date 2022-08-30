@@ -1,0 +1,27 @@
+<Annotation_Data>
+  <Information>
+    <Creator>Hong-Yuan Yang</Creator>
+    <Time>2022/08/22 15:24:16</Time>
+    <Target>NCKU IMILab CNC</Target>
+  </Information>
+  <Model_Data>
+    <Number Number="0">
+      <Type>0</Type>
+      <Location>(-0.2, 0.9, 0.0)</Location>
+      <Size>(3.0, 3.0, 3.0)</Size>
+      <Rotation_Angle>(0.0, 0.0, 0.7, -0.7)</Rotation_Angle>
+    </Number>
+    <Number Number="1">
+      <Type>2</Type>
+      <Location>(-0.4, 0.8, -0.1)</Location>
+      <Size>(0.2, 0.2, 0.5)</Size>
+      <Rotation_Angle>(0.0, 0.0, 0.0, 1.0)</Rotation_Angle>
+    </Number>
+    <Number Number="2">
+      <Type>1</Type>
+      <Location>(-0.4, 0.6, 0.0)</Location>
+      <Size>(1.5, 1.5, 1.9)</Size>
+      <Rotation_Angle>(0.0, 0.6, 0.8, 0.0)</Rotation_Angle>
+    </Number>
+  </Model_Data>
+</Annotation_Data>

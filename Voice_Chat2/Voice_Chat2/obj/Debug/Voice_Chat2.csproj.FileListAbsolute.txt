@@ -1,0 +1,50 @@
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\Voice_Chat2.exe.config
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\Voice_Chat2.exe
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\Voice_Chat2.pdb
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\Microsoft.Win32.Registry.dll
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.Asio.dll
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.Core.dll
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.dll
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.Midi.dll
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.Wasapi.dll
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.WinForms.dll
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.WinMM.dll
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\System.Security.AccessControl.dll
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\System.Security.Principal.Windows.dll
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\Microsoft.Win32.Registry.xml
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.xml
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\System.Security.AccessControl.xml
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\bin\Debug\System.Security.Principal.Windows.xml
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.csproj.AssemblyReference.cache
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.Form1.resources
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.Properties.Resources.resources
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.csproj.GenerateResource.cache
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.csproj.CoreCompileInputs.cache
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.csproj.CopyComplete
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.exe
+Z:\OneDrive - 國立成功大學 National Cheng Kung University\My_Paper\AR\Experiment\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.pdb
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\Voice_Chat2.exe.config
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\Voice_Chat2.exe
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\Voice_Chat2.pdb
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\Microsoft.Win32.Registry.dll
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.Asio.dll
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.Core.dll
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.dll
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.Midi.dll
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.Wasapi.dll
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.WinForms.dll
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.WinMM.dll
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\System.Security.AccessControl.dll
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\System.Security.Principal.Windows.dll
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\Microsoft.Win32.Registry.xml
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\NAudio.xml
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\System.Security.AccessControl.xml
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\bin\Debug\System.Security.Principal.Windows.xml
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.csproj.AssemblyReference.cache
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.Form1.resources
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.Properties.Resources.resources
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.csproj.GenerateResource.cache
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.csproj.CoreCompileInputs.cache
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.csproj.CopyComplete
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.exe
+Y:\My_Paper\Remote_Platform\Remote_Platform\Voice_Chat2\Voice_Chat2\obj\Debug\Voice_Chat2.pdb
