@@ -9,9 +9,6 @@ import Socket_Server
 import Image_Analysis
 import Image_Shading
 import Data_Processing
-
-import Image_Shading2_Dashborad
-import Image_Shading3
 import Image_Shading4_Demo
 
 from multiprocessing import Queue, Process
@@ -116,9 +113,6 @@ if __name__ == "__main__":
     p1 = Socket_Server.Socket_Server2(SS2SS2, SS42IS, "140.116.86.220", 7001) #Remote Platform
     p2 = Socket_Server.Socket_Server3(SS32IS, "140.116.86.220", 7002) #Voice Chat
     p3 = Image_Analysis.Image_Analysis(SS2IA, IA2IS, IS2SS, "Camera_Calibration/Camera_Parameter_Surface720p_00255.npz")
-    #p4 = Image_Shading.Image_Shading(IA2IS, IS2SS, DP2IS, 1280, 720, "OBJ_File/CNC_test6.obj", 1, True)
-    #p4 = Image_Shading2_Dashborad.Image_Shading(IA2IS, IS2SS, DP2IS, 1280, 720, "OBJ_File/CNC_test6.obj", 1) #測試儀錶板
-    #p4 = Image_Shading3.Image_Shading(IA2IS, IS2SS, DP2IS, 1280, 720, "OBJ_File/CNC_test6.obj", 1) #Demo標註
     p4 = Image_Shading4_Demo.Image_Shading(IA2IS, IS2SS, DP2IS, SS42IS, SS32IS, 1280, 720) #Demo標註2（同動）
     p5 = Data_Processing.Data_Processing(DP2IS, "140.116.86.220", 4840, 7004)
     p6 = Socket_Server.Socket_Server4(SS42IS, "140.116.86.220", 7003) #Surface 選擇的XML檔名回傳
