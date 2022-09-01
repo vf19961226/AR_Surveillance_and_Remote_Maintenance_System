@@ -10,7 +10,7 @@ import pyodbc
 server = '127.0.0.1' 
 port = '1433'
 username = 'sa' 
-password = 'asD0540317' 
+password = 'password' 
 cnxn = pyodbc.connect(driver='{ODBC Driver 17 for SQL Server}', server=server + ',' + port, user=username, password=password, autocommit=True)
 cursor = cnxn.cursor()
 
