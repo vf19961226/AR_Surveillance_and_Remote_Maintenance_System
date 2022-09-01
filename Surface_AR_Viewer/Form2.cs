@@ -26,7 +26,7 @@ namespace Surface_AR_Viewer
         Socket clientSocket;
         private void Form2_Load(object sender, EventArgs e)
         {
-            conn = new SqlConnection("data source=140.116.86.220; user id = sa; password = asD0540317");
+            conn = new SqlConnection("data source=140.116.86.220; user id = sa; password = password");
             conn.Open();
 
             clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp); //創建一個Socket物件
