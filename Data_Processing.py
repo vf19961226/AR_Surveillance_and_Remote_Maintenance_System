@@ -188,7 +188,7 @@ class Data_Processing(Process):
         print("Data_Processing: {}".format(os.getpid()))
         
         #連線到SQL Server
-        cnxn = pyodbc.connect(driver='{ODBC Driver 17 for SQL Server}', server=self.IP + ',1433', user='sa', password='asD0540317', autocommit=True)
+        cnxn = pyodbc.connect(driver='{ODBC Driver 17 for SQL Server}', server=self.IP + ',1433', user='sa', password='password', autocommit=True)
         cursor = cnxn.cursor()
         
         var_double = ua.Variant(0, ua.VariantType.Double)
