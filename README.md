@@ -79,7 +79,8 @@
 11. 按下遠端維修介面右上角之**Send Model**按鈕，將標註顯示於AR檢視器中，如下圖所示。
 ![Send Model按鈕](https://user-images.githubusercontent.com/77768660/188930959-0f448ad8-3ae4-448e-baff-87d8fb9e97e6.png)
 
-12. 透過語音通話功能輔以遠端標註之虛擬物件，教導現場人員如何更換刀具，刀具更換流程可參考[論文附錄B](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Recode_Document/%E9%99%84%E9%8C%84B_CNC%E4%B8%89%E8%BB%B8%E5%8A%A0%E5%B7%A5%E6%A9%9F%E6%8F%9B%E5%88%80%E6%B5%81%E7%A8%8B.pdf)。
+12. 透過語音通話功能輔以遠端標註之虛擬物件，如下圖所示，教導現場人員如何更換刀具，刀具更換流程可參考[論文附錄B](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Recode_Document/%E9%99%84%E9%8C%84B_CNC%E4%B8%89%E8%BB%B8%E5%8A%A0%E5%B7%A5%E6%A9%9F%E6%8F%9B%E5%88%80%E6%B5%81%E7%A8%8B.pdf)。
+![更換刀具輔助標註](https://user-images.githubusercontent.com/77768660/188936337-0f5629cf-9a4c-4b61-aaa8-aaddc51d5d4b.PNG)
 
 13. 更換刀具完成後，再次按下AR檢視器中的**Help**按鈕，即可退出遠端協作模式，介面將回復顯示CNC可視化數據，如下圖所示。
 ![換刀完成](https://user-images.githubusercontent.com/77768660/188931285-541bfef3-7b42-4d8a-a5c1-1cf7ff2bbc52.PNG)
