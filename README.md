@@ -50,20 +50,34 @@
 2. 執行部署於霧節點之程式，可直接使用Anaconda啟動相對應環境之終端機（Terminal），並將路徑指向霧節點程式資料夾，接著執行`python main.py`指令，如執行成功將會出現**Image of Augmented Reality**視窗，如下圖所示，但因AR設備尚未連線傳送影像，故該視窗顯示空白畫面。
 ![Fog_Layer執行畫面](https://user-images.githubusercontent.com/77768660/188840502-a5e55221-cabc-47bd-8e41-17c2a829326d.png)
 
-3. 啟動部署於CNC三軸加工機之CNC控制程式（**EMP-CNC**），並將CNC先進行Servo On與原點復歸，完成後按下介面中的**Connect**按鈕，將CNC之感測資料以Opc UA通訊協議傳送至霧節點，如下圖所示。
-![CNC操作介面](https://user-images.githubusercontent.com/77768660/188845369-ad50356e-29d2-494b-ae4a-231787d0cfdb.PNG)
+3. 啟動部署於CNC三軸加工機之CNC控制介面（**EMP-CNC**），並將CNC先進行System Start、Servo On與原點復歸，完成後按下介面中的**Connect**按鈕，將CNC之感測資料以Opc UA通訊協議傳送至霧節點，如下圖所示。
+![CNC操作介面](https://user-images.githubusercontent.com/77768660/188921516-b1a8dc12-34e7-4990-be79-d532f3452cb8.png)
 
 4. 啟動部署於AR設備之AR檢視器，並按下介面中的**Connect**按鈕，即可開始擷取與傳送AR設備之相機影像，並接收與顯示處理完成之AR影像，如下圖所示，若成功進行這時位於霧節點的**Image of Augmented Reality**視窗將顯示渲染影像。
-![AR檢視器](https://user-images.githubusercontent.com/77768660/188843393-d5550769-f91c-4f5b-9d6d-9699e73cc97f.png)
+![AR檢視器](https://user-images.githubusercontent.com/77768660/188920904-2cf6d75d-a0db-4b6d-a139-ab4d91384a5d.png)
 
 5. 啟動部署於遠端電腦之遠端維修介面，並可看到平台中之右上角將同步顯示AR檢視器畫面，如下圖所示。
-![遠端維修介面](https://user-images.githubusercontent.com/77768660/188847815-58a2f00b-c199-425d-bc26-9100da643350.jpg)
+![遠端維修介面](https://user-images.githubusercontent.com/77768660/188923175-fbc51300-7a14-42be-adbd-318cc165602b.png)
 
-6. 將AR設備之相機朝向貼在CNC設備上之AR Uco標籤，AR檢視器將顯示CNC感測數據可視化數據，並可使用金屬物品觸碰極限感測器，用以查看數據處理模組是否正常運作，顯示紅色警告於AR檢視器中，如下圖所示。成功後以按下CNC警急停止鈕並解開，用以解除觸碰極限所產生的控制器Error Code。
-![AR檢視器之CNC可視化數據警告](https://user-images.githubusercontent.com/77768660/188849689-ca53890e-ed2a-4836-8c9e-5bdaef33e1ef.png)
+6. 將AR設備之相機朝向貼在CNC設備上之AR Uco標籤，AR檢視器將顯示CNC感測數據可視化數據，並可使用金屬物品觸碰極限感測器，用以查看數據處理模組是否正常運作，顯示紅色警告於AR檢視器中，如下圖所示，圖中的可視化數據由左至右、由上而下分別代表Y軸、主軸、Z軸、X軸。成功後以按下CNC警急停止鈕並解開，用以解除觸碰極限所產生的控制器Error Code，使CNC回復正常運作狀態。
+![AR檢視器之CNC可視化數據警告](https://user-images.githubusercontent.com/77768660/188924869-a804e057-6374-4ec9-9129-5ea6b280e3b7.png)
 
-7. 使用CNC控制程式分別移動CNC之X軸、Y軸、Z軸，並同時於遠端維修介面中察看CMC姿態模擬模型是否同步移動，接著直接按下**移至換刀點**按鈕，讓CNC主軸移至換刀點。
-8. 按下AR檢視器中的**Help**按鈕，接著遠端維修平台也按下**Help**按鈕，跳出**Voice Chat**視窗後，按下**Call**按鈕，進入遠端協作模式，並帶有語音通話功能，可透過麥克風與喇叭進行通話測試。這時AR檢視器中所顯示的AR物件將由CNC可視化數據更換成遠端專家標註之虛擬物件，但遠端專家尚未進行標註，故不會顯示任何虛擬物件。
-9. 按下遠端維修平台左下角的**CNC Data**按鈕，顯示歷史數據介面，可查看CNC過去的感測數據進行故障分析，並可透過介面右上方鍵號換頁至歷史標註資訊頁面，在此頁面選擇事先準備好之**換刀展示**標註，並按下**OK**按鈕，換刀標註將顯示於CNC姿態模擬模型中，最後按下遠端維修介面右上角之**Send**按鈕，將標註顯示於AR檢視器中。
-10. 透過語音通話功能輔以遠端標註之虛擬物件，教導現場人員如何更換刀具，刀具更換流程可參考論文附錄B。
-11. 更換刀具完成後，再次按下AR檢視器中的**Help**按鈕，即可退出遠端協作模式，介面將回復顯示CNC可視化數據。
+7. 使用CNC控制介面分別移動CNC之X軸、Y軸、Z軸，並同時於遠端維修介面中察看CMC姿態模擬模型是否同步移動，如下圖所示，下左圖為實體CNC，下右圖為遠端維修介面中的CNC姿態模擬模型。
+![CNC姿態模擬模型](https://user-images.githubusercontent.com/77768660/188927054-ccffc142-7988-49a0-ba65-31b95209b921.png)
+
+8. 接著按下CNC控制介面之**移至換刀點**按鈕，如下圖所示，讓CNC主軸移至換刀點。
+![CNC操作介面-移至換刀點](https://user-images.githubusercontent.com/77768660/188926533-e3db1251-96e0-44dd-85bd-a82d83727b97.png)
+
+9. 按下AR檢視器中的**Help**按鈕，如下左圖，接著遠端維修平台也按下**Help**按鈕，跳出**Voice Chat**視窗後，按下**Call**按鈕，如下右圖，進入遠端協作模式，並帶有語音通話功能，可透過麥克風與喇叭進行通話測試。這時AR檢視器中所顯示的AR物件將由CNC可視化數據更換成遠端專家標註之虛擬物件，但遠端專家尚未進行標註，故不會顯示任何虛擬物件。
+![語音通話](https://user-images.githubusercontent.com/77768660/188928194-ee71986b-3cda-4105-889a-26f33d939a94.png)
+
+10. 按下遠端維修平台左下角的**CNC Data**按鈕，顯示歷史數據介面，可查看CNC過去的感測數據進行故障分析，並可透過介面右上方鍵號換頁至歷史標註資訊頁面，如下左圖，在此頁面選擇事先準備好之**換刀展示**標註，並按下**OK**按鈕，如下右圖，換刀標註將顯示於CNC姿態模擬模型中。
+![歷史資料查看介面](https://user-images.githubusercontent.com/77768660/188930317-84bb538b-e233-4842-a295-533c0603f4c7.png)
+
+11. 按下遠端維修介面右上角之**Send Model**按鈕，將標註顯示於AR檢視器中，如下圖所示。
+![Send Model按鈕](https://user-images.githubusercontent.com/77768660/188930959-0f448ad8-3ae4-448e-baff-87d8fb9e97e6.png)
+
+12. 透過語音通話功能輔以遠端標註之虛擬物件，教導現場人員如何更換刀具，刀具更換流程可參考[論文附錄B](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Recode_Document/%E9%99%84%E9%8C%84B_CNC%E4%B8%89%E8%BB%B8%E5%8A%A0%E5%B7%A5%E6%A9%9F%E6%8F%9B%E5%88%80%E6%B5%81%E7%A8%8B.pdf)。
+
+13. 更換刀具完成後，再次按下AR檢視器中的**Help**按鈕，即可退出遠端協作模式，介面將回復顯示CNC可視化數據，如下圖所示。
+![換刀完成](https://user-images.githubusercontent.com/77768660/188931285-541bfef3-7b42-4d8a-a5c1-1cf7ff2bbc52.PNG)
