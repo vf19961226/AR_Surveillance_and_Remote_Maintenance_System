@@ -7,7 +7,7 @@
 ![系統架構](https://user-images.githubusercontent.com/77768660/188812957-9fcc322c-7992-4b1e-9bc2-31a26ecb8265.png)
 
 ### 紀錄文件（[Recode_Document](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System)）
-本分支為本專案之預設分支，主要儲存系統實作記錄文檔，並講解系統之程式架構。
+本分支為本專案之預設分支，主要儲存系統實作記錄文檔，並講解系統之程式架構與使用方法。
 
 ### CNC三軸加工機（[CNC](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/tree/CNC)）
 儲存CNC三軸加工機之控制程式，包含了維修測試功能，以及Opc UA Client與感測資料擷取之功能，詳細可參考[2022/05/14 CNC感測資料擷取與可視化（1） - OpcUA Client資料傳輸](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Recode_Document/2022_05_14%20CNC%E6%84%9F%E6%B8%AC%E8%B3%87%E6%96%99%E6%93%B7%E5%8F%96%E8%88%87%E5%8F%AF%E8%A6%96%E5%8C%96%EF%BC%881%EF%BC%89.md#opcua-client%E8%B3%87%E6%96%99%E5%82%B3%E8%BC%B8)。
