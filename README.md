@@ -46,6 +46,8 @@
 儲存部署於遠端電腦之遠端平台專案程式，該專案以Unity遊戲引擎搭配C＃ .NET架構進行開發，並於其中實現標註模型編輯模式、傳送標註結果、現場人員AR影像、遠端通話模組、查看歷史數據、CNC姿態模擬模型、新增標註模型等功能，詳細可參考[2022/06/10 遠端維修平台建置（1）](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Recode_Document/2022_06_10%20%E9%81%A0%E7%AB%AF%E7%B6%AD%E4%BF%AE%E5%B9%B3%E5%8F%B0%E5%BB%BA%E7%BD%AE%EF%BC%881%EF%BC%89.md#20220610-%E9%81%A0%E7%AB%AF%E7%B6%AD%E4%BF%AE%E5%B9%B3%E5%8F%B0%E5%BB%BA%E7%BD%AE1)、[2022/06/14 遠端維修平台建置（2） - 遠端平台](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Recode_Document/2022_06_14%20%E9%81%A0%E7%AB%AF%E7%B6%AD%E4%BF%AE%E5%B9%B3%E5%8F%B0%E5%BB%BA%E7%BD%AE%EF%BC%882%EF%BC%89.md#%E9%81%A0%E7%AB%AF%E5%B9%B3%E5%8F%B0)（語音通話）與[2022/06/22 遠端維修平台建置（3）](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Recode_Document/2022_06_22%20%E9%81%A0%E7%AB%AF%E7%B6%AD%E4%BF%AE%E5%B9%B3%E5%8F%B0%E5%BB%BA%E7%BD%AE%EF%BC%883%EF%BC%89.md)（遠端標註）。
 
 ## 使用說明
+本部分主要說明展示步驟，將使用本系統更換CNC三軸加工機刀具，並同時展示系統中各項功能，系統操作步驟如下所述。
+
 1. 依據各分支之安裝說明將功能模組部署於相對應之裝置上。
 2. 執行部署於霧節點之程式，可直接使用Anaconda啟動相對應環境之終端機（Terminal），並將路徑指向霧節點程式資料夾，接著執行`python main.py`指令，如執行成功將會出現**Image of Augmented Reality**視窗，如下圖所示，但因AR設備尚未連線傳送影像，故該視窗顯示空白畫面。
 ![Fog_Layer執行畫面](https://user-images.githubusercontent.com/77768660/188840502-a5e55221-cabc-47bd-8e41-17c2a829326d.png)
