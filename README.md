@@ -10,3 +10,13 @@
 2. 解壓縮後將其部署於CNC控制電腦中，控制介面可透過開啟[Surface_AR_Viewer.sln](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer.sln)專案檔以Visual Studio進行編譯並開啟，或是透過[Surface_AR_Viewer.exe](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/bin/Debug/Surface_AR_Viewer.exe)執行檔開啟，其路徑為`Surface_AR_Viewer/bin/Debug/Surface_AR_Viewer.exe`。
 
 ## AR檢視器介面基本操作
+
+
+![AR檢視器介面](https://user-images.githubusercontent.com/77768660/189081715-39b23b0e-86c7-49a1-a31d-c998769473cf.png)
+
+* **連線至霧節點：** 
+* **與霧節點斷開連線：** 
+* **語音通話：** 
+* **檢視歷史數據：** 
+
+![AR檢視器介面 - 歷史數據](https://user-images.githubusercontent.com/77768660/189082435-27b218a1-186b-40b9-896c-abbc8e71b7bc.png)
