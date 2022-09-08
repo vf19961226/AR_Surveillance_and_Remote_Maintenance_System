@@ -12,3 +12,4 @@
 
 ## CNC基礎控制
 本部分將利用本程式所開發之介面對CNC三軸加工機進行控制，介面功能如下圖所示，並於以下逐一敘述個功能之使用方法。
+![CNC控制介面](https://user-images.githubusercontent.com/77768660/189040822-2e389ff9-ddcc-4ee1-904d-2fb3a37287c6.png)
