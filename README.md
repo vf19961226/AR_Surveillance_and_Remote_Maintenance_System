@@ -1,6 +1,21 @@
 # AR_Surveillance_and_Remote_Maintenance_System_(CNC)
 本分支儲存了CNC三軸加工機之控制程式，主要用以控制CNC以及擷取並發送CNC感測數據至霧節點，以下將詳述如何安裝本程式以及CNC基礎控制。如需開發其他功能請參閱[工研院EPCIO使用手冊](https://www.epcio.com.tw/support/UserManual.aspx)。
 
+## 開發環境
+1. 電腦系統實作環境（[NISE 3800E-H110](https://www.nexcom.com.tw/Products/industrial-computing-solutions/industrial-fanless-computer/core-i-performance/fanless-pc-fanless-computer-nise-3800e-h110)）**（待確認）**
+
+|**項目**|**版本**|
+|:---:|:---:|
+|**Windows 10 Enterprise LTSC 64bit**|1809|
+|**Visual Studio 2019**|16.11.10|
+|**.NET**|3.1|
+
+2. 安裝的NuGet套件
+
+|**項目**|**版本**|**安裝指令**
+|:---:|:---:|:---:
+|**Opc.UaFx.Advanced**|2.26.0|（直接由NuGet套件管理頁面安裝）
+
 ## 程式安裝
 本程式將安裝於**CNC三軸加工機的控制電腦**中，並搭配安裝於CNC控制電腦中的RTX運行，因一般電腦並無安裝RTX，所以無法運行本程式。安裝步驟如下所述。
 
