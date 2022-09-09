@@ -2,7 +2,7 @@
 本分支儲存了CNC三軸加工機之控制程式，主要用以控制CNC以及擷取並發送CNC感測數據至霧節點，以下將詳述如何安裝本程式以及CNC基礎控制。如需開發其他功能請參閱[工研院EPCIO使用手冊](https://www.epcio.com.tw/support/UserManual.aspx)。
 
 ## 開發環境
-1. 電腦系統實作環境（[NISE 3800E-H110](https://www.nexcom.com.tw/Products/industrial-computing-solutions/industrial-fanless-computer/core-i-performance/fanless-pc-fanless-computer-nise-3800e-h110)）**（待確認）**
+1. 工業電腦系統開發環境（[NISE 3800E-H110](https://www.nexcom.com.tw/Products/industrial-computing-solutions/industrial-fanless-computer/core-i-performance/fanless-pc-fanless-computer-nise-3800e-h110)）**（待確認）**
 
 |**項目**|**版本**|
 |:---:|:---:|
