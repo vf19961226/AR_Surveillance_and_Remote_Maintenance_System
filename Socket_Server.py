@@ -156,7 +156,7 @@ class Socket_Server2(Process): #給遠端平台用的
         server = self.IP
         port = '1433'
         username = 'sa' 
-        password = 'asD0540317' 
+        password = 'password' 
         cnxn = pyodbc.connect(driver='{ODBC Driver 17 for SQL Server}', server=server + ',' + port, user=username, password=password, autocommit=True)
         cursor = cnxn.cursor()
 
