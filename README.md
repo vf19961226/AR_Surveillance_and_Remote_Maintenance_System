@@ -23,7 +23,7 @@
 ![開啟專案](https://user-images.githubusercontent.com/77768660/189570068-c0cfc4c1-1b7f-4498-bf15-0243f06ccd16.png)
 
 4. 開啟程式後，切換至**Game**頁面，並點選中間上方的**三角形播放鍵**進入運行模式，如下圖所示，即可使用程式中的各項功能。
-4. 修改程式中的IP以及資料庫密碼，需修改物件、檔案與位置如下所述。
+5. 修改程式中的IP以及資料庫密碼，需修改物件、檔案與位置如下所述。
     * **Main Camera（Unity物件）**
         1. **Socket_TCP_Client**腳本中的**Server_IP**與**Server_Port**，需修改為對應霧節點中的遠端平台AR畫面監控傳輸設定（IP與連接埠）。
         2. **CNC_Loc_Sync**腳本中的**Server_IP**與**Server_Port**，需修改為對應霧節點中的CNC姿態模擬模型位置傳輸設定（IP與連接埠）。
@@ -34,7 +34,7 @@
     * [**Form1.cs（Voice_Chat2）**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Remote_Platform/Voice_Chat2/Voice_Chat2/Form1.cs)
         1. [101行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Remote_Platform/Voice_Chat2/Voice_Chat2/Form1.cs#L101)，將其中的IP`140.116.86.220`與連接埠`7002`更改為相對應霧節點中的語音通話功能設定（IP與連接埠），並重新編譯執行一次。
 
-5. 開啟程式後，切換至**Game**頁面，並點選中間上方的**三角形播放鍵**進入運行模式，如下圖所示，即可使用程式中的各項功能。
+6. 開啟程式後，切換至**Game**頁面，並點選中間上方的**三角形播放鍵**進入運行模式，如下圖所示，即可使用程式中的各項功能。
 ![進入運行模式](https://user-images.githubusercontent.com/77768660/189570393-c40906a3-3c83-4b7c-bc0c-cadb54b2cbe9.png)
 
 ## 遠端平台基本操作
