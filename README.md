@@ -39,24 +39,39 @@
 
     ```python
     server = '127.0.0.1'  #安裝有Microsoft SQL Server 2019之電腦的IP
-    port = '1433' #安裝有Microsoft SQL Server 2019之電腦對應至SQL Server之連接阜（1433為SQL Server預設）
+    port = '1433' #安裝有Microsoft SQL Server 2019之電腦對應至SQL Server之連接埠（1433為SQL Server預設）
     username = 'sa' #Microsoft SQL Server 2019之資料庫管理員使用者名稱（sa為SQL Server預設）
     password = 'password' #Microsoft SQL Server 2019之資料庫管理員使用者密碼
     ```
 
 4. 修改程式中的IP以及資料庫密碼，需修改檔案與行數如下所述。
     * [**main.py**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py)
-        1. [112行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L112)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7000`更改為霧節點相對應之連接阜。
-        2. [113行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L113)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7001`更改為霧節點相對應之連接阜。
-        3. [114行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L114)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7002`更改為霧節點相對應之連接阜。
-        4. [117行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L117)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`4840`更改為霧節點相對應之OPC UA連接阜，`7004`更改為霧節點相對應之Socket Server連接阜。
-        5. [118行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L118)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7003`更改為霧節點相對應之連接阜。
+        1. [112行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L112)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7000`更改為霧節點相對應之連接埠。
+        2. [113行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L113)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7001`更改為霧節點相對應之連接埠。
+        3. [114行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L114)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7002`更改為霧節點相對應之連接埠。
+        4. [117行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L117)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`4840`更改為霧節點相對應之OPC UA連接埠，`7004`更改為霧節點相對應之Socket Server連接埠。
+        5. [118行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L118)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7003`更改為霧節點相對應之連接埠。
   
     * [**Socket_Server.py**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py)
-        1. [159行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py#L159)，將`password`更改為SQL Server之密碼，其他如連接阜（1433，[157行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py#L157)）或使用者名稱（sa，[158行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py#L158)）如有變動再自行修改。
+        1. [159行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py#L159)，將`password`更改為SQL Server之密碼，其他如連接埠（1433，[157行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py#L157)）或使用者名稱（sa，[158行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py#L158)）如有變動再自行修改。
   
     * [**Data_Processing.py**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Data_Processing.py)
-        1. [191行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Data_Processing.py#L191)，將其中之`password`更改為SQL Server之密碼，其他如連接阜（1433）或使用者名稱（sa）如有變動再自行修改。
+        1. [191行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Data_Processing.py#L191)，將其中之`password`更改為SQL Server之密碼，其他如連接埠（1433）或使用者名稱（sa）如有變動再自行修改。
 
-5. 使用`python main.py`指令輸入新建立之Anaconda環境的終端機，用以確認程式是否正常運行，若正常運行將可看到如下圖之運行畫面。
+5. 至防火牆開啟相對應之連接埠，**路徑為：控制台→系統及安全性→Windows Defender防火牆→進階設定**，並於左列的**輸入規則**與**輸出規則**中分別進行新增規則（輸入與輸出的設定方法一樣），步驟如下所述。
+    1. 選擇**連接埠**。    
+        ![新增輸入規則 - 連接埠](https://user-images.githubusercontent.com/77768660/189568358-8ce9bc28-87cd-43d5-8a7b-0eb36c2d9cd8.png)
+    2. 選擇**TCP**與**特定本機連接埠**，並於特定本機連接埠中輸入欲開啟的連接埠，如1433。    
+        ![新增輸入規則 - TCP與特定本機連接埠](https://user-images.githubusercontent.com/77768660/189568573-e908382c-b289-4d6f-b778-56c68b0a8d30.png)
+    
+    3. 選擇**允許連線**。    
+        ![新增輸入規則 - 允許連線](https://user-images.githubusercontent.com/77768660/189568650-a9718c73-cb17-45c9-baed-419ac3aa3a5a.png)
+    
+    4. 套用規則可依自行需求進行設定，這裡先使用預設值（全部勾選）。    
+        ![新增輸入規則 - 套用規則](https://user-images.githubusercontent.com/77768660/189568728-20230e3a-9ca0-4289-96bb-cc4f34770e9e.png)
+    
+    5. 輸入名稱與描述（自行決定，讓自己之後維護時能夠辨識即可）。    
+        ![新增輸入規則 - 名稱與描述](https://user-images.githubusercontent.com/77768660/189568772-22ef2763-2a43-4d96-b0a5-9f4254e4d7a2.png)
+
+6. 使用`python main.py`指令輸入新建立之Anaconda環境的終端機，用以確認程式是否正常運行，若正常運行將可看到如下圖之運行畫面。
 ![Fog_Layer執行畫面](https://user-images.githubusercontent.com/77768660/188840502-a5e55221-cabc-47bd-8e41-17c2a829326d.png)
