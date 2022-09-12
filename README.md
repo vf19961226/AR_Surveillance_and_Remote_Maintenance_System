@@ -4,24 +4,24 @@
 ## 程式開發環境
 1. 電腦系統實作環境
 
-|**項目**|**版本**|
-|:---:|:---:|
-|**Windows 11 Education**|21H2|
-|**Anaconda**|4.10.3|
-|**pip**|21.2.2|
-|**Python**|3.8.12|
-|**Microsoft SQL Server 2019**|15.0.2000.5(X64)|
+    |**項目**|**版本**|
+    |:---:|:---:|
+    |**Windows 11 Education**|21H2|
+    |**Anaconda**|4.10.3|
+    |**pip**|21.2.2|
+    |**Python**|3.8.12|
+    |**Microsoft SQL Server 2019**|15.0.2000.5(X64)|
 
 2. 安裝的Python套件包
 
-|**項目**|**版本**|**安裝指令**
-|:---:|:---:|:---:
-|**OpenCV**|4.5.5|conda install -c conda-forge opencv
-|**OpenGL**|3.1.1a1|conda install -c anaconda pyopengl
-|**NumPy**|1.22.3|（安裝OpenCV時已附帶安裝）
-|**Pygame**|2.1.2|pip install pygame
-|**Pillow**|9.0.1|conda install -c anaconda pillow
-|**Pyodbc**|4.0.32|conda install -c anaconda pyodbc|
+    |**項目**|**版本**|**安裝指令**
+    |:---:|:---:|:---:
+    |**OpenCV**|4.5.5|conda install -c conda-forge opencv
+    |**OpenGL**|3.1.1a1|conda install -c anaconda pyopengl
+    |**NumPy**|1.22.3|（安裝OpenCV時已附帶安裝）
+    |**Pygame**|2.1.2|pip install pygame
+    |**Pillow**|9.0.1|conda install -c anaconda pillow
+    |**Pyodbc**|4.0.32|conda install -c anaconda pyodbc|
 
 ## 程式安裝
 本程式將安裝於霧節點伺服器中，其中霧節點伺服器建議選用安裝有GPU之伺服器或電腦，以利圖形運算更加迅速。本程式之安裝步驟如下所述。
