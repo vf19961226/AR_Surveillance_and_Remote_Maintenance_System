@@ -44,7 +44,7 @@
     password = 'password' #Microsoft SQL Server 2019之資料庫管理員使用者密碼
     ```
 
-4. 修改程式中的IP以及資料庫密碼，需修改檔案與行數如下所述。
+4. 修改程式中的IP以及資料庫密碼，需修改檔案與位置如下所述。
     * [**main.py**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py)
         1. [112行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L112)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7000`更改為霧節點相對應之連接埠。
         2. [113行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L113)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7001`更改為霧節點相對應之連接埠。
