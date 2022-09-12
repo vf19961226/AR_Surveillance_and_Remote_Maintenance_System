@@ -27,7 +27,7 @@
 2. 解壓縮後修改程式中的IP以及資料庫密碼，需修改檔案與位置如下所述。
     * [**Form1.cs**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form1.cs)
         1. [67行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form1.cs#L67)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7000`更改為霧節點相對應之AR設備影像傳輸連接埠。
-        2. [108行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form1.cs#L108)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7000`更改為霧節點相對應之語音通話連接埠。
+        2. [108行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form1.cs#L108)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7002`更改為霧節點相對應之語音通話連接埠。
         
     * [**Form2.cs**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form2.cs)
         1. [29行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form2.cs#L29)，將其中**data source**之`140.116.86.220`更改為SQL伺服器之IP，**user id**更改為SQL伺服器之使用者名稱（sa為預設），**password**更改為SQL伺服器之使用者密碼。
