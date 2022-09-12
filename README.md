@@ -25,8 +25,8 @@
 4. 開啟程式後，切換至**Game**頁面，並點選中間上方的**三角形播放鍵**進入運行模式，如下圖所示，即可使用程式中的各項功能。
 4. 修改程式中的IP以及資料庫密碼，需修改物件、檔案與位置如下所述。
     * **Main Camera（Unity物件）**
-        1. **Socket_TCP_Client**腳本中的**Server_IP**與**Server_Port**，需修改為對應霧節點中的遠端平台影像傳輸設定（IP與連接埠）。
-        2. **CNC_Loc_Sync**腳本中的**Server_IP**與**Server_Port**，需修改為對應霧節點中的CNC位置傳輸設定（IP與連接埠）。
+        1. **Socket_TCP_Client**腳本中的**Server_IP**與**Server_Port**，需修改為對應霧節點中的遠端平台AR畫面監控傳輸設定（IP與連接埠）。
+        2. **CNC_Loc_Sync**腳本中的**Server_IP**與**Server_Port**，需修改為對應霧節點中的CNC姿態模擬模型位置傳輸設定（IP與連接埠）。
         
     * **Canvas→Data_btn（Unity物件）**
         1. **DB_Panel_Show**腳本中的**SQL_Server_IP**、**User_ID**與**Password**，需修改為對應資料庫的IP位置及其使用者名稱與密碼。
