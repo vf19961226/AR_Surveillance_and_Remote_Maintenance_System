@@ -46,11 +46,11 @@
 
 4. 修改程式中的IP以及資料庫密碼，需修改檔案與位置如下所述。
     * [**main.py**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py)
-        1. [112行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L112)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7000`更改為霧節點相對應之連接埠。
-        2. [113行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L113)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7001`更改為霧節點相對應之連接埠。
-        3. [114行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L114)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7002`更改為霧節點相對應之連接埠。
-        4. [117行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L117)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`4840`更改為霧節點相對應之OPC UA連接埠，`7004`更改為霧節點相對應之Socket Server連接埠。
-        5. [118行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L118)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7003`更改為霧節點相對應之連接埠。
+        1. [112行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L112)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7000`更改為霧節點相對應之AR設備影像傳輸連接埠。
+        2. [113行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L113)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7001`更改為霧節點相對應之遠端平台AR畫面監控連接埠。
+        3. [114行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L114)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7002`更改為霧節點相對應之語音通話連接埠。
+        4. [117行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L117)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`4840`更改為霧節點相對應之OPC UA連接埠，`7004`更改為霧節點相對應之CNC姿態模擬模型位置傳輸連接埠。
+        5. [118行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/main.py#L118)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7003`更改為霧節點相對應之接收AR設備選擇XML檔案連接埠。
   
     * [**Socket_Server.py**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py)
         1. [159行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py#L159)，將`password`更改為SQL Server之密碼，其他如連接埠（1433，[157行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py#L157)）或使用者名稱（sa，[158行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/Socket_Server.py#L158)）如有變動再自行修改。
