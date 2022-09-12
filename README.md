@@ -22,7 +22,7 @@
 1. 從Github下載程式，步驟如下圖所示。
 ![Github下載程式](https://user-images.githubusercontent.com/77768660/189030424-672c1110-4a40-4c50-9e85-15ed9c471914.png)
 
-2. 解壓縮後將其部署於CNC控制電腦中，並修改[**Form1.cs**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715/Form1.cs)程式中位於[**505行**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715/Form1.cs#L505)的IP以及連接埠，修改為霧節點之OPC UA Server設定，並重新執行編譯一次。
+2. 解壓縮後將其部署於CNC控制電腦中，並修改[**Form1.cs**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715/Form1.cs)程式中位於[**505行**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715/Form1.cs#L505)的OPC UA Server IP以及連接埠，修改為霧節點之OPC UA Server設定，並重新執行編譯一次。
 
 3. 控制介面可透過開啟[0715.sln](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715.sln)專案檔以Visual Studio進行編譯並開啟，或是透過[0715.exe](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715/bin/x64/Debug/0715.exe)執行檔開啟，其路徑為`0715/bin/x64/Debug/0715.exe`。
 
