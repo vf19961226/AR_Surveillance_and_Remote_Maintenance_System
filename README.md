@@ -16,8 +16,8 @@
 1. 從Github下載程式，並解壓縮至資料夾中，步驟如下圖所示。
 ![下載程式碼](https://user-images.githubusercontent.com/77768660/189569302-89d52e82-2675-41cd-a2fb-e58ba5ece845.png)
 
-2. 開啟Unity Hub檢查授權，若授權已到期，則需手動更新授權，步驟如下圖所示。
-
+2. 開啟Unity Hub檢查授權，若授權已到期，則需手動更新授權，可直接點選**同意並取得個人版授權**，如下圖所示。
+![Unity授權更新](https://user-images.githubusercontent.com/77768660/189570891-73c1c76b-d103-4b7a-b61e-159cbcaa76ea.png)
 
 3. 開啟**專案**頁面，並選擇右上方**開啟**，選擇第一步驟解壓縮完畢的資料夾，最後選擇欲使用的Unity版本，即可開啟本程式，步驟如下圖所示。
 ![開啟專案](https://user-images.githubusercontent.com/77768660/189570068-c0cfc4c1-1b7f-4498-bf15-0243f06ccd16.png)
