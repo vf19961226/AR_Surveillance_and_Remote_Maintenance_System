@@ -27,12 +27,12 @@
 本程式將安裝於霧節點伺服器中，其中霧節點伺服器建議選用安裝有GPU之伺服器或電腦，以利圖形運算更加迅速。本程式之安裝步驟如下所述。
 
 1. 從Github下載程式，步驟如下圖所示。
-
+![下載程式碼](https://user-images.githubusercontent.com/77768660/189566714-50e75006-e8e9-45b6-838e-0de4245237ae.png)
 
 2. 將其進行解壓縮後，開啟Anaconda建立新環境，可於Base環境的終端機（Terminal）中依序輸入以下指令，即可完成本程式之Pyhon運行環境建立。
     1. 創建新環境：`conda create -name Fog_Layer python=3.8`
     2. 啟動剛剛創建的新環境：`activate Fog_Layer`
-    3. 將路徑指向解壓縮完畢的程式資料夾：`cd C:\Users\vf199\Download\AR_Surveillance_and_Remote_Maintenance_System-Fog_Layer`，**路徑請自行依電腦路徑進行修改**。
+    3. 將路徑指向解壓縮完畢的程式資料夾：`cd C:\Users\vf199\Download\AR_Surveillance_and_Remote_Maintenance_System-Fog_Layer`，**路徑請自行依電腦設定進行修改**。
     4. 安裝所需套件：`pip install -r requirements.txt`
 
 3. 安裝**Microsoft SQL Server 2019**資料庫，詳細安裝步驟可參考《[Windows Server 如何安裝 SQL Server 2019 免費開發版](https://blog.hungwin.com.tw/windows-server-sql-server-2019-install/)》，安裝完成後可使用[**set_database.py**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/set_database.py)對資料庫進行設定，但在使用前須先更改[第10行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/set_database.py#L10)至[第13行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Fog_Layer/set_database.py#L13)之參數，如下所示，將其更改為新安裝之資料庫的相應參數，最終可直接於上步驟新建立之Anaconda環境中以終端機輸入`python set_database.py`指令進行設定。
