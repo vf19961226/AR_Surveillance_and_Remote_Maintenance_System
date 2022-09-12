@@ -5225,7 +5225,7 @@ MonoBehaviour:
   model3: {fileID: 0}
   SQL_Server_IP: 140.116.86.220
   User_ID: sa
-  Password: asD0540317
+  Password: password
   cnc_table: []
   operate_table: []
 --- !u!1 &2033266758
