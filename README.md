@@ -4,19 +4,19 @@
 ## 程式開發環境
 1. AR設備系統開發環境（[Surface Pro 7 平板電腦](https://www.microsoft.com/zh-tw/surface/devices/surface-pro-7#techspecs)）
 
-|**項目**|**版本**|
-|:---:|:---:|
-|**Windows 10 Home**|20H2|
-|**Visual Studio 2017**|15.9.23|
-|**.NET**|4.7.2|
+    |**項目**|**版本**|
+    |:---:|:---:|
+    |**Windows 10 Home**|20H2|
+    |**Visual Studio 2017**|15.9.23|
+    |**.NET**|4.7.2|
 
 2. 安裝的NuGet套件
 
-|**項目**|**版本**|**安裝指令**
-|:---:|:---:|:---:
-|**OpenCvSharp4**|4.5.5.20211231|（直接由NuGet套件管理頁面安裝）
-|**OpenCvSharp4.Extensions**|4.5.5.20211231|（直接由NuGet套件管理頁面安裝）
-|**OpenCvSharp4.runtime.win**|4.5.5.20211231|（直接由NuGet套件管理頁面安裝）
+    |**項目**|**版本**|**安裝指令**
+    |:---:|:---:|:---:
+    |**OpenCvSharp4**|4.5.5.20211231|（直接由NuGet套件管理頁面安裝）
+    |**OpenCvSharp4.Extensions**|4.5.5.20211231|（直接由NuGet套件管理頁面安裝）
+    |**OpenCvSharp4.runtime.win**|4.5.5.20211231|（直接由NuGet套件管理頁面安裝）
 
 ## 程式安裝
 本程式將安裝於AR設備（Microsoft Surface Pro 7平板電腦）上，須注意設備上是否有鏡頭與麥克風等感測裝置，用以擷取現場影像與音訊。安裝步驟如下所述。
@@ -24,7 +24,16 @@
 1. 從Github下載程式，步驟如下圖所示。
 ![image](https://user-images.githubusercontent.com/77768660/189074875-4b47ccd4-b389-40bd-afaa-330b314ae958.png)
 
-2. 解壓縮後將其部署於CNC控制電腦中，控制介面可透過開啟[Surface_AR_Viewer.sln](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer.sln)專案檔以Visual Studio進行編譯並開啟，或是透過[Surface_AR_Viewer.exe](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/bin/Debug/Surface_AR_Viewer.exe)執行檔開啟，其路徑為`Surface_AR_Viewer/bin/Debug/Surface_AR_Viewer.exe`。
+2. 解壓縮後修改程式中的IP以及資料庫密碼，需修改檔案與位置如下所述。
+    * [**Form1.cs**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form1.cs)
+        1. [67行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form1.cs#L67)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7000`更改為霧節點相對應之AR設備影像傳輸連接埠。
+        2. [108行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form1.cs#L108)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7000`更改為霧節點相對應之語音通話連接埠。
+        
+    * [**Form2.cs**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form2.cs)
+        1. [29行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form2.cs#L29)，將其中**data source**之`140.116.86.220`更改為SQL伺服器之IP，**user id**更改為SQL伺服器之使用者名稱（sa為預設），**password**更改為SQL伺服器之使用者密碼。
+        2. [33行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form2.cs#L33)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7003`更改為霧節點相對應之接收AR設備選擇XML檔案連接埠。
+
+3. 將其部署於CNC控制電腦中，控制介面可透過開啟[Surface_AR_Viewer.sln](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer.sln)專案檔以Visual Studio進行編譯並開啟，或是透過[Surface_AR_Viewer.exe](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/bin/Debug/Surface_AR_Viewer.exe)執行檔開啟，其路徑為`Surface_AR_Viewer/bin/Debug/Surface_AR_Viewer.exe`。
 
 ## AR檢視器介面基本操作
 本部分將介紹AR檢視器介面之基本操作，介面右上方有四個按鈕，分別代表連線至霧節點、與霧節點斷開連線、語音通話、檢視歷史數據，如下圖所示，以下將逐一介紹個按鈕功能。
