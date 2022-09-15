@@ -24,7 +24,9 @@
 
 2. 解壓縮後將其部署於CNC控制電腦中，並修改[**Form1.cs**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715/Form1.cs)程式中位於[**505行**](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715/Form1.cs#L505)的OPC UA Server IP以及連接埠，修改為霧節點之OPC UA Server設定，並重新執行編譯一次。
 
-3. 控制介面可透過開啟[0715.sln](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715.sln)專案檔以Visual Studio進行編譯並開啟，或是透過[0715.exe](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715/bin/x64/Debug/0715.exe)執行檔開啟，其路徑為`0715/bin/x64/Debug/0715.exe`。
+3. 若有使用5G企業專網需求，則需先將CNC工業電腦接上5G無線網卡，設定方法可參考[5G無線網卡設定（企業專有網路）](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Recode_Document/5G%E7%84%A1%E7%B7%9A%E7%B6%B2%E5%8D%A1%E8%A8%AD%E5%AE%9A%EF%BC%88%E4%BC%81%E6%A5%AD%E5%B0%88%E6%9C%89%E7%B6%B2%E8%B7%AF%EF%BC%89.md)。
+
+4. 控制介面可透過開啟[0715.sln](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715.sln)專案檔以Visual Studio進行編譯並開啟，或是透過[0715.exe](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/CNC/0715/bin/x64/Debug/0715.exe)執行檔開啟，其路徑為`0715/bin/x64/Debug/0715.exe`。
 
 ## CNC基礎控制
 本部分將利用本程式所開發之介面對CNC三軸加工機進行控制，介面功能如下圖所示，並於以下逐一敘述個功能之使用方法。
