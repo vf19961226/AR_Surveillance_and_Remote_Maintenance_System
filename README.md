@@ -33,7 +33,9 @@
         1. [29行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form2.cs#L29)，將其中**data source**之`140.116.86.220`更改為SQL伺服器之IP，**user id**更改為SQL伺服器之使用者名稱（sa為預設），**password**更改為SQL伺服器之使用者密碼。
         2. [33行](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/Form2.cs#L33)，將其中之`140.116.86.220`更改為霧節點伺服器之IP，`7003`更改為霧節點相對應之接收AR設備選擇XML檔案連接埠。
 
-3. 將其部署於CNC控制電腦中，控制介面可透過開啟[Surface_AR_Viewer.sln](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer.sln)專案檔以Visual Studio進行編譯並開啟，或是透過[Surface_AR_Viewer.exe](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/bin/Debug/Surface_AR_Viewer.exe)執行檔開啟，其路徑為`Surface_AR_Viewer/bin/Debug/Surface_AR_Viewer.exe`。
+3. 若有使用5G企業專網需求，則需先將設備接上5G無線網卡，設定方法可參考[5G無線網卡設定（企業專有網路）](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/Recode_Document/5G%E7%84%A1%E7%B7%9A%E7%B6%B2%E5%8D%A1%E8%A8%AD%E5%AE%9A%EF%BC%88%E4%BC%81%E6%A5%AD%E5%B0%88%E6%9C%89%E7%B6%B2%E8%B7%AF%EF%BC%89.md)。
+
+4. 將其部署於CNC控制電腦中，控制介面可透過開啟[Surface_AR_Viewer.sln](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer.sln)專案檔以Visual Studio進行編譯並開啟，或是透過[Surface_AR_Viewer.exe](https://github.com/vf19961226/AR_Surveillance_and_Remote_Maintenance_System/blob/AR_Device/Surface_AR_Viewer/bin/Debug/Surface_AR_Viewer.exe)執行檔開啟，其路徑為`Surface_AR_Viewer/bin/Debug/Surface_AR_Viewer.exe`。
 
 ## AR檢視器介面基本操作
 本部分將介紹AR檢視器介面之基本操作，介面右上方有四個按鈕，分別代表連線至霧節點、與霧節點斷開連線、語音通話、檢視歷史數據，如下圖所示，以下將逐一介紹個按鈕功能。
