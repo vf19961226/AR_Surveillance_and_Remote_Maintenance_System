@@ -142,7 +142,7 @@ class Data_Processing(Process):
         self.y_background = self.danger
         self.z_background = self.safe
         '''
-    def Data_Analysis(self): #沒有分析的部分，之後可以加AI進去
+    def Data_Analysis(self):
         self.Alarm_Logic()
     
     def convert2glimg(self, img):
